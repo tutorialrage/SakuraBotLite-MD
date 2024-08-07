@@ -4,7 +4,7 @@ conn.reply(m.chat, `${await groupMetadata.id}`, m)
 }
 handler.help = ['getid']
 handler.tags = ['group']
-handler.command = /^(getid|idgc|gcid)$/i
+handler.command = ['getid', 'idgc', 'gcid']
 
 handler.restrict = false
 
