@@ -8,8 +8,8 @@ const chalk = require('chalk')
 
 const app = express()
 const port = 3009
-const namebot = 'Curiosity\nBot'
-const nameowner = 'Zam'
+const namebot = 'Sakura\nBot'
+const nameowner = 'OfcDiego'
 function displayHeader() {
     
 CFonts.say(namebot, {
@@ -19,7 +19,7 @@ colors: ['green'],
 background: 'transparent',
 letterSpacing: '0'
 })
-CFonts.say('Made by Zam', {
+CFonts.say('By: OfcDiego', {
 font: 'console',
 align: 'center',
 colors: ['white'],
