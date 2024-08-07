@@ -474,7 +474,7 @@ restrict: `*• Modo restringido:* Esta función ha sido deshabilitada`
 }[type]
 if (msg) return conn.reply(m.chat, msg, fkontak, global.danied)
 let msgg = {
-unreg: '*• Se requiere registro:* No puede acceder antes de registrarse. Regístrese aquí utilizando el siguiente método.\n\n*[ MÉTODO DE REGISTRO ]*\n• .register Zam.17'
+unreg: '*• Se requiere registro:* No puede acceder antes de registrarse. Regístrese aquí utilizando el siguiente método.\n\n*[ MÉTODO DE REGISTRO ]*\n• .register Ofc.17'
 }[type]
 if (msgg) return conn.reply(m.chat, msgg, fkontak, global.danied)
 let msg2 = {
