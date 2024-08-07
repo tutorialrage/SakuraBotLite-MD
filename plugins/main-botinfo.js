@@ -5,7 +5,7 @@ const _uptime = process.uptime() * 1000
 const uptimex = clockString(_uptime)
 const nomor = conn.user.jid
 const name = conn.getName(conn.user.jid, 'image')
-const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/1a2ce69ce7445f80d1421.png")
+const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://tinyurl.com/28p4lowz")
 const fkontak = {key: {participant: "0@s.whatsapp.net",remoteJid: "status@broadcast",fromMe: false,id: "Halo"},message: {contactMessage: {vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:Bot\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}},participant: "0@s.whatsapp.net"}
 const text = 'SakuraBot 🍟'
 const blurRadius = 90
