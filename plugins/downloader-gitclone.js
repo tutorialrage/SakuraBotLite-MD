@@ -21,7 +21,7 @@ return m.reply('🚩 *Ocurrió un fallo*' + '\n\n> ' + e)}
 }
 handler.help = ['gitclone']
 handler.tags = ['downloader']
-handler.command = /gitclone/i
+handler.command = ['gitclone']
 
 handler.limit = true
 handler.register = false
