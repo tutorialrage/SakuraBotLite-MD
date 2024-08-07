@@ -1,40 +1,46 @@
+//Creadore
 global.owner = [
-['5214434703586'],
-['573147616444'], 
-['5492266613038']
-]
+['573012482597', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 👑', true],
+['573218138672'],
+['573218138672']]
 
-global.numberbot = '5215534019278'
-global.nameowner = 'Zam'
-global.nomorown = '5214434703586'
+global.numberbot = '573218138672'
+global.nameowner = 'OfcDiego'
+global.nomorown = '573012482597'
 
 global.APIs = {}
 global.APIKeys = {}
 global.lolhuman = ''
 global.ocrapi = '314b4b8b2d88957'
 
-//Other Settings
-global.namebot = 'CuriosityBot-MD'
-global.title = 'CuriosityBot - Zam'
-global.sgc = 'https://chat.whatsapp.com'
-global.isPairing = false
-global.sig = 'https://www.instagram.com/zam._.bl'
-global.giturl = 'https://github.com/AzamiJs/CuriosityBot-MD'
-global.swa = 'wa.me/5214434703586'
-global.version = '1.0'
-global.access_denied = 'https://qu.ax/lFTW.jpeg'
+//NombreBot
+global.namebot = 'SakuraBotLite-MD 🚩'
+global.title = 'By: Oficial Diego 🌟'
+global.packname = 'Super SakuraBot 🌸'
+global.author = 'By: DiegoOfc ✨️'
+global.wm = 'WhatsApp Bot ⭐️'
+global.done = '⭐️ H E C H O\nSuper SakuraBot 🍟'
 
-global.wm = 'Curiosity`s WhatsApp Bot'
-global.done = '```© curiositybot```'
-global.icon = 'https://qu.ax/lFTW.jpeg'
-global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
-global.wait = '`Espera un momento...`'
-global.eror = '`! Error de comando`'
-global.packname = '© Curiositybot'
-global.author = 'Made by Zam'
-global.bayar = 'money'
+//Msg
+global.wait = '🚀 Espere un momento, soy lenta....'
+global.eror = '⚠️ Error de comando!'
+
+//Links imagen
 global.gif = 'https://qu.ax/lFTW.jpeg'
 global.thumb = 'https://qu.ax/lFTW.jpeg'
+global.icon = 'https://qu.ax/lFTW.jpeg'
+global.access_denied = 'https://qu.ax/lFTW.jpeg'
+
+//Links
+global.sgc = 'https://chat.whatsapp.com'
+global.isPairing = false
+global.sig = 'https://www.instagram.com/ofc.diego'
+global.giturl = 'https://github.com/OfcDiego/SakuraBotLite-MD'
+global.swa = 'wa.me/573012482597'
+global.version = '2.0.1'
+
+global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
+global.bayar = 'money'
 
 global.multiplier = 45
 global.sourceurl = 'https://whatsapp.com/channel/0029VaB4w2ZFHWpwgyEe3w2k'
@@ -91,7 +97,7 @@ serverMessageId: -1
 },
 forwardingScore: 256,
 externalAdReply: {
-title: `Curiositybot`,
+title: packname,
 body: wm,
 thumbnailUrl: thumb,
 sourceUrl: sig,
@@ -113,7 +119,7 @@ serverMessageId: -1
 },
 forwardingScore: 256,
 externalAdReply: {
-title: `Curiosity Whatsapp Bot`,
+title: `Sakura Whatsapp Bot`,
 body: wm,
 thumbnailUrl: icon,
 sourceUrl: '',
