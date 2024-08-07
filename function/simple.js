@@ -286,7 +286,7 @@ exports.makeWASocket = (connectionOptions, options = {}) => {
                             mediaType: 1,
                             title: title,
                             body: body,
-                            thumbnailUrl: 'https://telegra.ph/file/dc229854bebc5fe9ccf01.jpg',
+                            thumbnailUrl: 'https://tinyurl.com/25l9cd53',
                             renderLargerThumbnail: true,
                             sourceUrl: source
                         }
@@ -339,16 +339,16 @@ mentionedJid: null,
 forwardingScore: 1,
 isForwarded: true,
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363302472386010@newslette',
+newsletterJid: '120363192435027853@newslette',
 serverMessageId: '', 
-newsletterName: `Hola` },
+newsletterName: 'SakuraBot - Channel 🚩' },
 externalAdReply: { title: wm + ` 💫`, 
-body: 'Zam',
+body: packname,
 mediaType: 1, 
 renderLargerThumbnail: false,
 previewType: `PHOTO`,
-thumbnailUrl: 'https://qu.ax/lFTW.jpeg', 
-sourceUrl: 'https://github.com/AzamiJs/CuriosityBot-MD' }}
+thumbnailUrl: 'https://tinyurl.com/25l9cd53', 
+sourceUrl: 'https://github.com/OfcDiego/SakuraBotLite-MD' }}
 }))
 
        
