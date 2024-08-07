@@ -153,6 +153,6 @@ m.reply(`✅ *${type}* tuvo éxito en *${isEnable ? 'activarse' : 'desactivarse'
 }
 handler.help = ['en', 'dis']
 handler.tags = ['group', 'owner']
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = ['disable', 'true', 'false', 'on', 'off']
 
 module.exports = handler
