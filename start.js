@@ -118,7 +118,7 @@ if (useMobile) throw new Error('No se puede utilizar la API de emparejamiento de
 const { registration } = { registration: {} }
 let phoneNumber = ''
 do {
-phoneNumber = await question(chalk.yellowBright('Ingrese un número válido, con Región: 62xxx:\nEjemplo: 6285888777444\n'))
+phoneNumber = await question(chalk.yellowBright('Ingrese un número válido, con Región: 57×××××:\nEjemplo: 57××××××\n'))
 } while (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v)))
 rl.close()
 phoneNumber = phoneNumber.replace(/\D/g,'')
@@ -150,10 +150,10 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
 
-conn.welcome = 'BIENVENIDO @user 👋' 
-conn.bye = 'Adiós @user 👋'
-conn.spromote = '@user ahora es administrador!'
-conn.sdemote = '@user ahora no es administrador!'
+conn.welcome = '🍟 Bienvenido: @user' 
+conn.bye = '⭐️ Hasta Luego @user'
+conn.spromote = '@user ahora es administrador! ✨️'
+conn.sdemote = '@user ahora no es administrador! 🚩'
 conn.handler = handler.handler.bind(conn)
 conn.onParticipantsUpdate = handler.participantsUpdate.bind(conn)
 conn.onDelete = handler.delete.bind(conn)
