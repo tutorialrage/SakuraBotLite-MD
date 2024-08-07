@@ -2,7 +2,7 @@
 
 ## 🍟 **`Sakura Bot Lite - MD`**
 
-![sakurita]()
+![sakurita](https://tinyurl.com/25l9cd53)
 
 ---
 
