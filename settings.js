@@ -26,10 +26,10 @@ global.wait = '🚀 Espere un momento, soy lenta....'
 global.eror = '⚠️ Error de comando!'
 
 //Links imagen
-global.gif = 'https://qu.ax/lFTW.jpeg'
-global.thumb = 'https://qu.ax/lFTW.jpeg'
-global.icon = 'https://qu.ax/lFTW.jpeg'
-global.access_denied = 'https://qu.ax/lFTW.jpeg'
+global.gif = 'https://qu.ax/ORNj.jpg'
+global.thumb = 'https://qu.ax/sCjp.jpg'
+global.icon = 'https://qu.ax/wics.jpg'
+global.access_denied = 'https://qu.ax/magu.jpg'
 
 //Links
 global.sgc = 'https://chat.whatsapp.com'
