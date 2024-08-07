@@ -26,7 +26,7 @@ await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
 
 handler.help = ['kick']
 handler.tags = ['group']
-handler.command = /^(kick)$/i
+handler.command = ['kick']
 
 handler.group = true
 handler.botAdmin = true
