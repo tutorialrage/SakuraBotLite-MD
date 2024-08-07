@@ -3,7 +3,7 @@ const { youtubedl, youtubedlv2 } = require('@bochilteam/scraper');
 
 const handler = async (m, { conn, text, args }) => {
 if (!text) {
-return m.reply('*Ingrese el título de un vídeo junto al tipo de media que desea recibir*\n\nPor ejemplo: `!play audio Those Eyes`\n\n> Tipos de media: `audio`, `video`, `mp3doc`, `mp4doc`');
+return m.reply('🚩 *Ingrese el título de un vídeo*\n\nPor ejemplo: !play audio Those Eyes');
 }
 
 const parts = text.split(' ')
@@ -71,6 +71,6 @@ console.error(e)
 
 handler.help = ['play']
 handler.tags = ['downloader']
-handler.command = /^(play)$/i
+handler.command = ['play']
 
 module.exports = handler
