@@ -1,7 +1,7 @@
 {
-"nama": "CuriosityBot-MD",
-"description": "Curiosity es un Bot de Whatsapp que tiene muchas características",
-"developer": "AzamiJs",
+"nama": "SakuraBotLite-MD",
+"description": "WhatsApp Bot - NodeJs",
+"developer": "OfcDiego",
 "scripts": {
 "start": "node index.js --pairing --autoread 2>/dev/null"
 },
